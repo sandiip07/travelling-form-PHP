@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+.container{
+    max-width: 80%;
+    padding: 20px;
+    background: gainsboro;
+    color: rgb(90, 90, 248);
+    margin: auto;
+}
+.container h3, p {
+    text-align: center;
+}
+p{
+    font-size: small;
+}
+.submit-msg-text{
+    color: rgb(0, 192, 74);
+}
+
+input, textarea{
+    display: block;
+    width: 80%;
+    margin: 10px;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.btn{
+    width: 5rem;
+    height: 2rem;
+    background:rgb(90, 90, 248);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.3s ;
+    background: rgb(65, 65, 253);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
